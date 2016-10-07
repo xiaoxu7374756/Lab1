@@ -87,7 +87,6 @@ public class Main {
             }
         }
         expStr = expStr.replaceAll("\\s", "");  //去空格
-        String temp = expStr;  //为防止重复变量或常数无法检测，每分析完一项，便利用temp删去该项
         Matcher valMatch = tNape.matcher(expStr);
         int j = 0;  //列下标
         while (valMatch.find()) {
@@ -113,8 +112,6 @@ public class Main {
                     expr.values[0][j] *= -1;
                 }
             }
-            //删除已经处理的项
-            //temp = temp.substring(0, index) + temp.substring(index + val.length());
             j++;
         }
         generate(expr);
@@ -229,7 +226,10 @@ public class Main {
     private Expression derivative(String expStr) {
         Expression newExp = new Expression();
         //复制原exp的数据
-        newExp.values = exp.values.clone();
+        newExp.values = new double[exp.values.length][exp.length];
+        for (int i = 0; i < exp.values.length; i++) {
+            System.arraycopy(exp.values[i], 0, newExp.values[i], 0, exp.length);
+        }
         newExp.vars = exp.vars.clone();
         newExp.length = exp.length;
         newExp.exp = exp.exp;
