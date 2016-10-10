@@ -4,7 +4,7 @@
     <resourceExtensions />change at B1
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
-      <entry name="!?*.form" />
+      <entry name="!?*.form" />changed at B2
       <entry name="!?*.class" />
       <entry name="!?*.groovy" />
       <entry name="!?*.scala" />
