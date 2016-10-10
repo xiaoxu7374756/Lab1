@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
+    <resourceExtensions />change at B1
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
       <entry name="!?*.form" />
