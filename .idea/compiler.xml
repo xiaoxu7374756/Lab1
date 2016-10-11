@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project version="4">change at C4
   <component name="CompilerConfiguration">
     <resourceExtensions />change at B1
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
       <entry name="!?*.form" />changed at B2
+=======
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+>>>>>>> zoubranch
       <entry name="!?*.class" />
       <entry name="!?*.groovy" />
       <entry name="!?*.scala" />
@@ -19,5 +28,9 @@
       </profile>
     </annotationProcessing>
   </component>
+<<<<<<< HEAD
 </project>
 change at commit one
+=======
+</project>changed at zoubranch
+>>>>>>> zoubranch

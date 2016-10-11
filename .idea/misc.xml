@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project version="4">change at C4
   <component name="EntryPointsManager">
     <entry_points version="2.0" />change at B1
@@ -6,6 +7,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>changed at B2
+=======
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+>>>>>>> zoubranch
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
@@ -22,6 +32,7 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+<<<<<<< HEAD
  changed at commit one  </component>
   <component name="masterDetails">
     <states>
@@ -40,3 +51,7 @@
     </states>
   </component>
 </project>
+=======
+  </component>
+</project>changed at zoubranch
+>>>>>>> zoubranch
